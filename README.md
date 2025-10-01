@@ -4,16 +4,16 @@
 
 **Live Demo:** [https://eriktong.github.io/StudentList/](https://eriktong.github.io/StudentList/)
 
-> Short description: _Update this one-liner to summarize the app in a sentence._
+> Simple student directory app (add/edit/delete/filter).
 
 ---
 
 ## Features
-- Clean starter with Unknown/minimal
+- CRUD list with validation
+- Search & filter
+- Responsive layout
 - Deployed on **GitHub Pages** via Actions
-- Production build output: `-`
-- Mobile-friendly layout _(if applicable)_
-- Routing-ready _(SPA)_  
+- Output dir: `-`
 
 
 ---
@@ -21,15 +21,12 @@
 ## Quick Start
 
 ### Prerequisites
-- Node.js LTS (or none if pure static)
+- Node.js LTS (if using Node/React)
 - npm (bundled with Node)
 
 ### Local Dev
 ```bash
-# install
 npm install
-
-# start dev server
 -
 ```
 
@@ -38,31 +35,22 @@ npm install
 -
 ```
 
-> Build output goes to **`-`**.
-
 ---
 
 ## Deploy (GitHub Pages)
+- Public URL: **https://eriktong.github.io/StudentList/**
+- Workflow: `.github/workflows/pages.yml`
 
-This repo deploys using **Actions** on pushes to `main`.
 
-- Workflow: `.github/workflows/pages.yml`  
-- Public URL: **https://eriktong.github.io/StudentList/**  
-- SPA fallback: `404.html` is created during the workflow so React Router routes work on refresh.
-
-If something breaks:
-1. Verify the latest workflow run is green.
-2. For CRA, ensure `"homepage": "https://eriktong.github.io/StudentList/"` exists in `package.json`.
-3. For Vite, ensure `base: "/StudentList/"` in `vite.config.*`.
+If a route 404s on refresh, SPA fallback is already created as `404.html`.
 
 ---
 
 ## Screenshots
-
-> Put images under `docs/` and reference them here.
+Put images under `docs/` and reference them here.
 
 | Screen | Image |
-|---|---|
+| --- | --- |
 | Home | ![Home](docs/screenshot-1.png) |
 
 ---
@@ -74,33 +62,14 @@ If something breaks:
 
 ---
 
-## Project Structure (high level)
-
-
----
-
-## Environment Variables
-> If none, delete this section. Otherwise, document them like:
-
-| Variable | Example | Required | Description |
-|---|---|---|---|
-| `VITE_API_URL` | `https://api.example.com` | No | API base URL |
-
----
-
-## Roadmap / TODO
-- [ ] Add better screenshots
-- [ ] Fill in real description & features
-- [ ] Audit Lighthouse (performance, a11y, SEO)
-- [ ] Add tests (Vitest/Jest) _(optional)_
-- [ ] Add CI for lint/test _(optional)_
+## Project Health Checklist
+- [ ] Update screenshots in `docs/`
+- [ ] Fill in any missing features in this README
+- [ ] Lighthouse pass (perf, a11y, SEO)
+- [ ] Add tests (optional)
 
 ---
 
 ## License
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE).
+If a license exists in this repo, it applies. Otherwise, add one (MIT recommended).
 
----
-
-## Maintainer
-- **Erik Tong** — feedback & issues via GitHub
