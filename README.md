@@ -1,8 +1,9 @@
 # StudentList
 
+**Live Demo:** https://eriktong.github.io/StudentList/
+
 ![Pages Deploy](https://github.com/eriktong/StudentList/actions/workflows/pages.yml/badge.svg) ![Last commit](https://img.shields.io/github/last-commit/eriktong/StudentList) ![License](https://img.shields.io/badge/license-MIT-informational)
 
-**Live Demo:** [https://eriktong.github.io/StudentList/](https://eriktong.github.io/StudentList/)
 
 > Simple student directory app (add/edit/delete/filter).
 
